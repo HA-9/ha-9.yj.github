@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>秋冬季窑鸡推广方案与执行计划</title>
+    <!-- 引入Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 引入Font Awesome图标 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 自定义配置 -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#8B4513', // 暖橙主色（契合窑鸡/秋日氛围）
+                        secondary: '#8b5a2b', // 棕色辅助色
+                        neutral: '#f8f5f0', // 浅米色背景
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .scroll-smooth {
+                scroll-behavior: smooth;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .card-hover {
+                transition: all 0.3s ease;
+            }
+            .card-hover:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+            }
+        }
+    </style>
+</head>
+<body class="bg-neutral scroll-smooth">
+    <!-- 导航栏 -->
+    <nav class="fixed top-0 left-0 right-0 bg-white/95 shadow-md z-50">
+        <div class="container mx-auto px-4 py-3 flex flex-wrap items-center justify-between">
+            <a href="#top" class="text-primary font-bold text-xl flex items-center">
+                <img src="img/xlh.png" alt="星联汇LOGO~"  width="60" height="2"/>
+                        <span class="text-xl font-serif font-bold text-black text-shadow">云南星联汇企业管理有限公司</span>
+            </a>
+            
+            <!-- 移动端菜单按钮 -->
+            <button id="menuBtn" class="lg:hidden text-secondary focus:outline-none">
+                <i class="fas fa-bars text-xl"></i>
+            </button>
+            
+            <!-- 导航菜单 -->
+            <div id="menu" class="hidden lg:flex w-full lg:w-auto mt-4 lg:mt-0">
+                <ul class="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-6">
+                    <li><a href="#intro" class="text-gray-700 hover:text-primary px-2 py-1">项目介绍</a></li>
+                    <li><a href="#site" class="text-gray-700 hover:text-primary px-2 py-1">场地规划</a></li>
+                    <li><a href="#capacity" class="text-gray-700 hover:text-primary px-2 py-1">容纳人数</a></li>
+                    <li><a href="#construction" class="text-gray-700 hover:text-primary px-2 py-1">建设标准</a></li>
+                    <li><a href="#packages" class="text-gray-700 hover:text-primary px-2 py-1">套餐运营</a></li>
+                    <li><a href="#safety" class="text-gray-700 hover:text-primary px-2 py-1">安全卫生</a></li>
+                    <li><a href="#cost" class="text-gray-700 hover:text-primary px-2 py-1">成本收益</a></li>
+                    <li><a href="#marketing" class="text-gray-700 hover:text-primary px-2 py-1">营销推广</a></li>
+                    <li><a href="#monitor" class="text-gray-700 hover:text-primary px-2 py-1">效果监测</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 顶部Banner -->
+    <header id="top" class="pt-20 pb-12 bg-gradient-to-r from-secondary/90 to-primary/90 text-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center gap-8">
+                <div class="lg:w-1/2">
+                    <h1 class="text-[clamp(1.8rem,4vw,3rem)] font-bold mb-4 text-shadow">
+                        秋冬季窑鸡推广方案与执行计划
+                    </h1>
+                    <p class="text-lg mb-6 opacity-90">
+                        依托景区郊野生态资源，聚焦「亲子互动 + 美食体验」双核心，打造差异化土窑鸡项目
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <div class="bg-white/20 rounded-lg px-4 py-2">
+                            <span class="font-semibold">方案制定：</span>商务部-花花
+                        </div>
+                        <div class="bg-white/20 rounded-lg px-4 py-2">
+                            <span class="font-semibold">制定日期：</span>2025年8月28日
+                        </div>
+                        <div class="bg-white/20 rounded-lg px-4 py-2">
+                            <span class="font-semibold">目标客群：</span>郊野牧场、抖音线上推广
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 rounded-xl overflow-hidden shadow-2xl">
+                    <img src="img/窑鸡成品.jpg" alt="窑鸡美食展示" class="w-full h-auto object-cover hover:scale-105 transition-transform duration-500">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-10">
+        <!-- 项目介绍 -->
+        <section id="intro" class="mb-16">
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-2/3">
+                    <h2 class="text-2xl font-bold text-secondary mb-6 border-b-2 border-primary pb-2">
+                        <i class="fas fa-info-circle mr-2"></i>项目介绍
+                    </h2>
+                    <div class="bg-white rounded-xl p-6 shadow-md">
+                        <p class="text-gray-700 leading-relaxed mb-4">
+                            本项目依托景区优质郊野生态资源，以「亲子互动 + 美食体验」为双核心卖点，打造一站式「游玩 + 用餐」土窑鸡体验项目。通过差异化的沉浸式窑鸡制作体验，延长游客停留时长，提升二次消费意愿，精准覆盖家庭亲子、小型团建及研学群体，为景区创造新的营收增长点。
+                        </p>
+                        <p class="text-gray-700 leading-relaxed">
+                            项目核心优势在于将美食体验与景区游玩深度结合，既保留了传统窑鸡的风味特色，又增加了亲子互动的趣味性，满足现代家庭出游的多元化需求，利用窑鸡烤制的等待时间，挖掘游客二次消费潜力，既能增加营地营收，还能带动现场人气。通过标准化的场地规划、运营流程和安全保障，确保项目可落地、可复制、可持续盈利。
+                        </p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3">
+                    <div class="rounded-xl overflow-hidden shadow-md h-full">
+                        <img src="img/大景.jpg" alt="郊野景区环境" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 场地规划与面积测算 -->
+        <section id="site" class="mb-16">
+            <h2 class="text-2xl font-bold text-secondary mb-6 border-b-2 border-primary pb-2">
+                <i class="fas fa-map-marked-alt mr-2"></i>场地规划与面积测算
+            </h2>
+            
+            <!-- 核心参数 -->
+            <div class="bg-white rounded-xl p-6 shadow-md mb-8 card-hover">
+                <h3 class="text-xl font-semibold text-primary mb-4">核心参数基础</h3>
+                <ul class="space-y-3 text-gray-700">
+                    <li class="flex items-start">
+                        <i class="fas fa-circle text-xs text-primary mt-1.5 mr-2"></i>
+                        <span>单个窑坑标准尺寸：直径100cm（可容纳1只整鸡+炭火）、深度70cm（保证受热均匀，避免热量流失），窑坑外壁采用耐火砖+黄土混合稻草砌筑（保温性强，郊野材料易获取）</span>
+                    </li>
+                    <li class="flex items-start">
+                        <i class="fas fa-circle text-xs text-primary mt-1.5 mr-2"></i>
+                        <span>安全间距要求：窑坑间横向/纵向间距≥1.5m（防止游客操作时碰撞，预留添柴、取鸡空间）；所有区域主通道宽≥2m（满足人流疏散、物资运输）</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 功能区面积明细 -->
+            <div class="bg-white rounded-xl p-6 shadow-md mb-8 card-hover">
+                <h3 class="text-xl font-semibold text-primary mb-4">各功能区面积明细（总场地面积≈260㎡，误差±5%）</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full border-collapse">
+                        <thead>
+                            <tr class="bg-primary/10">
+                                <th class="border border-gray-300 px-4 py-3 text-left">功能区</th>
+                                <th class="border border-gray-300 px-4 py-3 text-left">尺寸规格</th>
+                                <th class="border border-gray-300 px-4 py-3 text-left">面积（㎡）</th>
+                                <th class="border border-gray-300 px-4 py-3 text-left">核心功能</th>
+                                <th class="border border-gray-300 px-4 py-3 text-left">设计依据</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">窑坑操作区</td>
+                                <td class="border border-gray-300 px-4 py-3">6行5列布局（含5个备用坑）<br>外围预留1.2m操作环带</td>
+                                <td class="border border-gray-300 px-4 py-3">120</td>
+                                <td class="border border-gray-300 px-4 py-3">30个窑坑砌筑、游客烧窑/取鸡操作</td>
+                                <td class="border border-gray-300 px-4 py-3">25个在用坑+5个备用坑，每个坑外围留1.2m安全操作空间</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">原料预处理区</td>
+                                <td class="border border-gray-300 px-4 py-3">4m×3m（含3个操作台+1个水池）</td>
+                                <td class="border border-gray-300 px-4 py-3">12</td>
+                                <td class="border border-gray-300 px-4 py-3">鸡肉清洗、腌制（配备冷藏柜1台）</td>
+                                <td class="border border-gray-300 px-4 py-3">满足2名工作人员同时预处理25只鸡，符合食品卫生标准</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">炭火储存区</td>
+                                <td class="border border-gray-300 px-4 py-3">2m×3m（带通风棚+防火隔离带）</td>
+                                <td class="border border-gray-300 px-4 py-3">6</td>
+                                <td class="border border-gray-300 px-4 py-3">存放木炭（单次储备30kg），远离易燃物</td>
+                                <td class="border border-gray-300 px-4 py-3">防火间距≥1.5m，避免阳光直射导致自燃</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">休息等候区</td>
+                                <td class="border border-gray-300 px-4 py-3">6m×5m（含10个座椅+饮品售卖机）</td>
+                                <td class="border border-gray-300 px-4 py-3">30</td>
+                                <td class="border border-gray-300 px-4 py-3">游客等待窑鸡期间休息、购买饮品</td>
+                                <td class="border border-gray-300 px-4 py-3">等待时长约1小时，人均休息空间0.8㎡</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">应急通道+缓冲区</td>
+                                <td class="border border-gray-300 px-4 py-3">主通道2m，次通道1.5m</td>
+                                <td class="border border-gray-300 px-4 py-3">75</td>
+                                <td class="border border-gray-300 px-4 py-3">人流疏散、应急救援（配备灭火器4组）</td>
+                                <td class="border border-gray-300 px-4 py-3">通道占比约20%，符合景区消防规范</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">临时卫生间</td>
+                                <td class="border border-gray-300 px-4 py-3">2个独立隔间（每个2.5m×2m）</td>
+                                <td class="border border-gray-300 px-4 py-3">10</td>
+                                <td class="border border-gray-300 px-4 py-3">游客临时使用（配备洗手池+垃圾桶）</td>
+                                <td class="border border-gray-300 px-4 py-3">按80人峰值计算，1个卫生间服务40人</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">设备储物区</td>
+                                <td class="border border-gray-300 px-4 py-3">3m×2.5m（存放工具、备用餐具）</td>
+                                <td class="border border-gray-300 px-4 py-3">7.5</td>
+                                <td class="border border-gray-300 px-4 py-3">储存窑铲、锡纸、清洁工具等</td>
+                                <td class="border border-gray-300 px-4 py-3">减少设备露天存放损耗，方便取用</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 场地选址要求 -->
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-1/2 bg-white rounded-xl p-6 shadow-md card-hover">
+                    <h3 class="text-xl font-semibold text-primary mb-4">场地选址要求</h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-mountain text-primary mr-2 mt-1"></i>
+                            <span><strong>地势：</strong>地势稍高（坡度≤5°），避免雨天积水（窑坑进水会导致坍塌、影响口感）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-location-arrow text-primary mr-2 mt-1"></i>
+                            <span><strong>位置：</strong>距离景区主干道≤100m（方便游客到达），远离易燃植被（如枯草、树林，防火间距≥15m）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-faucet text-primary mr-2 mt-1"></i>
+                            <span><strong>配套：</strong>靠近景区现有水源（如水龙头、蓄水池），避免长距离拉水管（保证原料清洗、应急灭火用水）</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:w-1/2 rounded-xl overflow-hidden shadow-md">
+                    <img src="img/场地要求.png" alt="场地规划示意图" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- 容纳人数测算 -->
+        <section id="capacity" class="mb-16">
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-1/2">
+                    <h2 class="text-2xl font-bold text-secondary mb-6 border-b-2 border-primary pb-2">
+                        <i class="fas fa-users mr-2"></i>容纳人数测算
+                    </h2>
+                    <!-- 核心承载人数 -->
+                    <div class="bg-white rounded-xl p-6 shadow-md mb-6 card-hover">
+                        <h3 class="text-xl font-semibold text-primary mb-4">核心承载人数（按25个在用窑坑计算）</h3>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <i class="fas fa-calculator text-primary mr-2 mt-1"></i>
+                                <span>套餐内固定人数：每个套餐「两大一小」，25个套餐共25×3=75人（含成人50人、儿童25人）营地案例：周末人流多，合理分配时间段</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-calculator text-primary mr-2 mt-1"></i>
+                                <span>临时陪同/单点人数：预留10%冗余（如家长额外带老人、游客单点窑鸡），按每个窑坑最多增加1人计算，可额外容纳25人</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-calculator text-primary mr-2 mt-1"></i>
+                                <span>总容纳人数上限：75+25=100人（超过此人数会导致用餐区拥挤、操作区安全风险上升）</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 人流管控建议 -->
+                    <div class="bg-white rounded-xl p-6 shadow-md card-hover">
+                        <h3 class="text-xl font-semibold text-primary mb-4">人流管控建议</h3>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <i class="fas fa-calendar-check text-primary mr-2 mt-1"></i>
+                                <span>实行「预约制」：游客需提前1天预约套餐，按时段分流（如10:00-11:00、11:00-12:00、中间间隔清理窑坑卫生，14:00-15:00以此类分批，1个小时一波）</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-ticket-alt text-primary mr-2 mt-1"></i>
+                                <span>套餐联动：套餐包含「1只窑鸡」，可叠加烧烤套餐使用，避免非套餐游客占用窑坑资源</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 rounded-xl overflow-hidden shadow-md h-full">
+                    <img src="img/亲子烧窑鸡推广活动.png" alt="亲子游玩场景" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- 窑坑建设标准与流程 -->
+        <section id="construction" class="mb-16">
+            <h2 class="text-2xl font-bold text-secondary mb-6 border-b-2 border-primary pb-2">
+                <i class="fas fa-hard-hat mr-2"></i>窑坑建设标准与流程
+            </h2>
+
+            <!-- 材料清单 -->
+            <div class="bg-white rounded-xl p-6 shadow-md mb-8 card-hover">
+                <h3 class="text-xl font-semibold text-primary mb-4">材料清单（30个窑坑）</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full border-collapse">
+                        <thead>
+                            <tr class="bg-primary/10">
+                                <th class="border border-gray-300 px-4 py-3 text-left">材料名称</th>
+                                <th class="border border-gray-300 px-4 py-3 text-left">规格</th>
+                                <th class="border border-gray-300 px-4 py-3 text-left">数量</th>
+                                <th class="border border-gray-300 px-4 py-3 text-left">用途</th>
+                                <th class="border border-gray-300 px-4 py-3 text-left">成本参考（元）</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">耐火砖</td>
+                                <td class="border border-gray-300 px-4 py-3">240×115×53mm</td>
+                                <td class="border border-gray-300 px-4 py-3">1800块</td>
+                                <td class="border border-gray-300 px-4 py-3">砌筑窑坑内壁（耐高温）</td>
+                                <td class="border border-gray-300 px-4 py-3">3600</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">黄土</td>
+                                <td class="border border-gray-300 px-4 py-3">含水率15%-20%</td>
+                                <td class="border border-gray-300 px-4 py-3">5000kg</td>
+                                <td class="border border-gray-300 px-4 py-3">混合稻草抹窑壁（保温）</td>
+                                <td class="border border-gray-300 px-4 py-3">0就地取材可省</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">稻草</td>
+                                <td class="border border-gray-300 px-4 py-3">干稻草</td>
+                                <td class="border border-gray-300 px-4 py-3">240kg</td>
+                                <td class="border border-gray-300 px-4 py-3">增强黄土粘性</td>
+                                <td class="border border-gray-300 px-4 py-3">240</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">钢筋（Φ12mm）</td>
+                                <td class="border border-gray-300 px-4 py-3">长1.2m</td>
+                                <td class="border border-gray-300 px-4 py-3">60根</td>
+                                <td class="border border-gray-300 px-4 py-3">窑坑顶部加固（防坍塌）</td>
+                                <td class="border border-gray-300 px-4 py-3">900</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">石棉板</td>
+                                <td class="border border-gray-300 px-4 py-3">1m×1m</td>
+                                <td class="border border-gray-300 px-4 py-3">30块</td>
+                                <td class="border border-gray-300 px-4 py-3">窑坑盖（隔热）</td>
+                                <td class="border border-gray-300 px-4 py-3">600</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 施工流程 -->
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-1/2 bg-white rounded-xl p-6 shadow-md card-hover">
+                    <h3 class="text-xl font-semibold text-primary mb-4">施工流程（周期7天）</h3>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex items-start">
+                            <div class="bg-primary text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">1</div>
+                            <div>
+                                <strong class="text-secondary">Day1-2：场地平整</strong>
+                                <p class="mt-1">清除杂物、夯实土地，按布局图放线标记窑坑位置</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="bg-primary text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">2</div>
+                            <div>
+                                <strong class="text-secondary">Day3-4：窑坑开挖 + 砌筑</strong>
+                                <ul class="mt-1 ml-4 list-disc space-y-1">
+                                    <li>开挖直径100cm、深度70cm的圆形基坑</li>
+                                    <li>用耐火砖砌筑窑壁（高度50cm，顶部向内收窄至开口15cm，方便放鸡）</li>
+                                    <li>钢筋横向穿插窑壁顶部，浇筑水泥砂浆固定</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="bg-primary text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">3</div>
+                            <div>
+                                <strong class="text-secondary">Day5-6：抹壁 + 晾晒</strong>
+                                <p class="mt-1">黄土混合稻草（比例5:1）调成泥，均匀抹在窑壁内外（厚度5cm），自然晾晒48小时至完全干燥</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="bg-primary text-white rounded-full w-6 h-6 flex items-center justify-center mr-3 flex-shrink-0 mt-0.5">4</div>
+                            <div>
+                                <strong class="text-secondary">Day7：测试验收</strong>
+                                <p class="mt-1">每个窑坑烧火测试（用木炭烧30分钟，观察是否漏火、温度是否均匀），不合格的重新抹壁</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:w-1/2 rounded-xl overflow-hidden shadow-md">
+                    <img src="img/动手.jpg" alt="窑坑建设施工" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- 套餐类型与全流程运营 -->
+        <section id="packages" class="mb-16">
+            <h2 class="text-2xl font-bold text-secondary mb-6 border-b-2 border-primary pb-2">
+                <i class="fas fa-concierge-bell mr-2"></i>套餐类型与全流程运营
+            </h2>
+
+            <!-- 套餐类型 -->
+            <div class="bg-white rounded-xl p-6 shadow-md mb-8 card-hover">
+                <h3 class="text-xl font-semibold text-primary mb-4">套餐类型</h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full border-collapse">
+                        <thead>
+                            <tr class="bg-primary/10">
+                                <th class="border border-gray-300 px-4 py-3 text-left">套餐类型</th>
+                                <th class="border border-gray-300 px-4 py-3 text-left">价格（元）</th>
+                                <th class="border border-gray-300 px-4 py-3 text-left">包含内容</th>
+                                <th class="border border-gray-300 px-4 py-3 text-left">核心优势</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">两大一小窑鸡套餐</td>
+                                <td class="border border-gray-300 px-4 py-3">168</td>
+                                <td class="border border-gray-300 px-4 py-3">2张成人票 + 1张儿童票 + 1.2kg窑鸡 + 4选1调味包 + 锡纸 + 免费餐具</td>
+                                <td class="border border-gray-300 px-4 py-3">立省9元，免门票预约，适配核心亲子客群</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">双人窑鸡套餐</td>
+                                <td class="border border-gray-300 px-4 py-3">98</td>
+                                <td class="border border-gray-300 px-4 py-3">2张成人票 + 0.6kg窑鸡 + 调味包 + 锡纸</td>
+                                <td class="border border-gray-300 px-4 py-3">覆盖情侣、好友群体，填补非亲子客群空白</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">单人窑鸡套餐</td>
+                                <td class="border border-gray-300 px-4 py-3">68</td>
+                                <td class="border border-gray-300 px-4 py-3">1张成人票 + 0.6kg窑鸡 + 调味包 + 锡纸</td>
+                                <td class="border border-gray-300 px-4 py-3">低门槛体验，吸引独行游客</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="border border-gray-300 px-4 py-3">亲子研学套餐</td>
+                                <td class="border border-gray-300 px-4 py-3">238</td>
+                                <td class="border border-gray-300 px-4 py-3">4人门票 + 2只窑鸡 + 研学手册 + 科普讲解 + DIY装饰材料</td>
+                                <td class="border border-gray-300 px-4 py-3">适配中小学春秋游、机构研学需求</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 全流程运营 -->
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-1/2 bg-white rounded-xl p-6 shadow-md card-hover">
+                    <h3 class="text-xl font-semibold text-primary mb-4">全流程运营（单批次10个套餐为例）</h3>
+                    <div class="space-y-5 text-gray-700">
+                        <div class="border-l-4 border-primary pl-4">
+                            <strong class="text-secondary">预约阶段</strong>
+                            <p class="mt-1">游客通过景区公众号预约，选择时段（如10:00场），支付套餐费用，系统发送「预约码 + 操作指南」</p>
+                        </div>
+                        <div class="border-l-4 border-primary pl-4">
+                            <strong class="text-secondary">到场准备（9:30-10:00）</strong>
+                            <ul class="mt-1 ml-4 list-disc space-y-1">
+                                <li>游客凭预约码在接待处领「窑鸡食材包」（预处理好的鸡 + 调料）</li>
+                                <li>工作人员引导至原料区，指导游客腌制鸡肉（约15分钟，提供手套、一次性餐盒）</li>
+                            </ul>
+                        </div>
+                        <div class="border-l-4 border-primary pl-4">
+                            <strong class="text-secondary">烧窑操作（10:00-10:30）</strong>
+                            <ul class="mt-1 ml-4 list-disc space-y-1">
+                                <li>工作人员协助游客往窑坑放木炭，点燃后烧至窑壁发红（约20分钟）</li>
+                                <li>将腌制好的鸡用锡纸包裹，放入窑坑，用黄土封死开口（防止热量流失）</li>
+                            </ul>
+                        </div>
+                        <div class="border-l-4 border-primary pl-4">
+                            <strong class="text-secondary">等候体验（10:30-11:30）</strong>
+                            <ul class="mt-1 ml-4 list-disc space-y-1">
+                                <li>游客可凭门票游览景区（工作人员定时查看窑坑状态，避免熄火）</li>
+                                <li>11:20时工作人员通知游客返回场地，准备取鸡</li>
+                            </ul>
+                        </div>
+                        <div class="border-l-4 border-primary pl-4">
+                            <strong class="text-secondary">用餐清洁（11:30-12:30）</strong>
+                            <ul class="mt-1 ml-4 list-disc space-y-1">
+                                <li>工作人员用工具打开窑坑，取出窑鸡，分到用餐区</li>
+                                <li>游客用餐后，工作人员引导将垃圾投入分类垃圾桶，清理窑坑残余炭火（倒入灭火池）</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 rounded-xl overflow-hidden shadow-md">
+                    <img src="img/哇哦.jpg" alt="窑鸡制作流程" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- 安全与卫生保障 -->
+        <section id="safety" class="mb-16">
+            <h2 class="text-2xl font-bold text-secondary mb-6 border-b-2 border-primary pb-2">
+                <i class="fas fa-shield-alt mr-2"></i>安全与卫生保障
+            </h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <!-- 安全措施 -->
+                <div class="bg-white rounded-xl p-6 shadow-md card-hover">
+                    <h3 class="text-xl font-semibold text-primary mb-4">安全措施</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <strong class="text-secondary flex items-center">
+                                <i class="fas fa-fire-extinguisher mr-2"></i>防火安全
+                            </strong>
+                            <p class="mt-1 ml-6 text-gray-700">每个窑坑配备1个灭火器、1块防火毯</p>
+                        </div>
+                        <div>
+                            <strong class="text-secondary flex items-center">
+                                <i class="fas fa-first-aid mr-2"></i>防烫伤安全
+                            </strong>
+                            <ul class="mt-1 ml-6 list-disc space-y-1 text-gray-700">
+                                <li>窑坑周围设置高30cm的木质防护栏，贴「高温危险」警示标识</li>
+                                <li>提供防烫手套、长柄窑铲（游客操作时必须佩戴/使用）</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <strong class="text-secondary flex items-center">
+                                <i class="fas fa-building mr-2"></i>结构安全
+                            </strong>
+                            <ul class="mt-1 ml-6 list-disc space-y-1 text-gray-700">
+                                <li>每周检查1次窑坑壁（是否开裂、松动），发现问题立即停用维修</li>
+                                <li>雨天禁止使用窑坑（防止黄土吸水坍塌）</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 卫生标准 -->
+                <div class="bg-white rounded-xl p-6 shadow-md card-hover">
+                    <h3 class="text-xl font-semibold text-primary mb-4">卫生标准</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <strong class="text-secondary flex items-center">
+                                <i class="fas fa-apple-alt mr-2"></i>食品卫生
+                            </strong>
+                            <ul class="mt-1 ml-6 list-disc space-y-1 text-gray-700">
+                                <li>鸡肉从正规供应商采购，提供检疫证明，冷藏储存（温度0-4℃，保质期≤2天）</li>
+                                <li>操作台、水池每日用84消毒液消毒3次，餐具使用前需经过消毒柜高温消毒（120℃，30分钟）</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <strong class="text-secondary flex items-center">
+                                <i class="fas fa-broom mr-2"></i>环境清洁
+                            </strong>
+                            <ul class="mt-1 ml-6 list-disc space-y-1 text-gray-700">
+                                <li>用餐区、休息区每小时清扫1次，垃圾日产日清</li>
+                                <li>临时卫生间配备洗手液、卫生纸，每日更换2次，喷洒除臭剂</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 成本与收益测算 -->
+        <section id="cost" class="mb-16">
+            <h2 class="text-2xl font-bold text-secondary mb-6 border-b-2 border-primary pb-2">
+                <i class="fas fa-coins mr-2"></i>成本与收益测算
+            </h2>
+
+            <div class="flex flex-col lg:flex-row gap-8">
+                <!-- 月度成本 -->
+                <div class="lg:w-1/2 bg-white rounded-xl p-6 shadow-md card-hover">
+                    <h3 class="text-xl font-semibold text-primary mb-4">月度成本（约26750元）</h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full border-collapse">
+                            <thead>
+                                <tr class="bg-primary/10">
+                                    <th class="border border-gray-300 px-4 py-3 text-left">成本类型</th>
+                                    <th class="border border-gray-300 px-4 py-3 text-left">金额（元）</th>
+                                    <th class="border border-gray-300 px-4 py-3 text-left">说明</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="hover:bg-gray-50">
+                                    <td class="border border-gray-300 px-4 py-3">食材成本</td>
+                                    <td class="border border-gray-300 px-4 py-3">18750</td>
+                                    <td class="border border-gray-300 px-4 py-3">每只鸡成本30元，25个套餐×25天=18750元</td>
+                                </tr>
+                                <tr class="hover:bg-gray-50">
+                                    <td class="border border-gray-300 px-4 py-3">人工成本</td>
+                                    <td class="border border-gray-300 px-4 py-3">6000</td>
+                                    <td class="border border-gray-300 px-4 py-3">2名工作人员（月薪3000元/人）</td>
+                                </tr>
+                                <tr class="hover:bg-gray-50">
+                                    <td class="border border-gray-300 px-4 py-3">耗材成本</td>
+                                    <td class="border border-gray-300 px-4 py-3">1500</td>
+                                    <td class="border border-gray-300 px-4 py-3">木炭、锡纸、调料等（日均60元）</td>
+                                </tr>
+                                <tr class="hover:bg-gray-50">
+                                    <td class="border border-gray-300 px-4 py-3">维护成本</td>
+                                    <td class="border border-gray-300 px-4 py-3">500</td>
+                                    <td class="border border-gray-300 px-4 py-3">窑坑修补、设备维修</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- 月度收益 -->
+                <div class="lg:w-1/2 bg-white rounded-xl p-6 shadow-md card-hover">
+                    <h3 class="text-xl font-semibold text-primary mb-4">旺/淡季月度窑坑单次/小时 收益</h3>
+                    <ul class="space-y-4 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-chart-line text-primary mr-2 mt-1"></i>
+                            <div>
+                                <strong>套餐收益：</strong>
+                                <p>旺（周末8天）：25个套餐 x 168元/套餐 x 8天 = 33600元</p>
+								<p>淡（22天）：15个套餐 x 168元/套餐 x 22天 = 55440元</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chart-line text-primary mr-2 mt-1"></i>
+                            <div>
+                                <strong>附加收益：</strong>
+                                <p>休息区饮品售卖（日均约200元，月收益5000元）</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                           
+                          
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 营销推广策略 -->
+        <section id="marketing" class="mb-16">
+            <div class="flex flex-col lg:flex-row gap-8">
+                <div class="lg:w-1/2">
+                    <h2 class="text-2xl font-bold text-secondary mb-6 border-b-2 border-primary pb-2">
+                        <i class="fas fa-bullhorn mr-2"></i>营销推广策略
+                    </h2>
+                    <div class="bg-white rounded-xl p-6 shadow-md h-full card-hover">
+                        <div class="space-y-6">
+                            <div>
+                                <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
+                                    <i class="fab fa-douyin mr-2"></i>线上推广
+                                </h3>
+                                <ul class="space-y-2 text-gray-700 ml-6 list-disc">
+                                    <li>抖音/小红书发布「亲子烧窑鸡」短视频（展示操作过程、成品口感），带 #郊野景区 #美食体验 话题，吸引本地家庭</li>
+                                    <li>大众点评上线套餐，设置「首单立减10元」「3人拼团9折」优惠</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
+                                    <i class="fas fa-store mr-2"></i>线下联动
+                                </h3>
+                                <ul class="space-y-2 text-gray-700 ml-6 list-disc">
+                                    <li>景区导流：入口设置指示牌 + 成品展示柜（提供试吃），热门打卡点设「窑鸡体验打卡牌」，发圈带定位赠饮品</li>
+                                    <li>异业合作：与周边民宿、农庄联名，窑鸡套餐享合作方9折，合作方反向导流</li>
+                                    <li>校企合作：与本地中小学、幼儿园合作，推广「劳动实践研学套餐」，覆盖批量研学客群</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-primary mb-3 flex items-center">
+                                    <i class="fas fa-user-friends mr-2"></i>会员体系
+                                </h3>
+                                <p class="text-gray-700 ml-6">购买套餐的游客自动成为营地会员，累计3次消费可免费兑换1张代金卷（后期协商代金价格），提升复购率</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 rounded-xl overflow-hidden shadow-md h-full">
+                    <img src="img/推广.jpg" alt="营销推广场景" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- 效果监测与评估 -->
+        <section id="monitor" class="mb-16">
+            <h2 class="text-2xl font-bold text-secondary mb-6 border-b-2 border-primary pb-2">
+                <i class="fas fa-chart-bar mr-2"></i>效果监测与评估
+            </h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <!-- 核心数据指标 -->
+                <div class="bg-white rounded-xl p-6 shadow-md card-hover">
+                    <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
+                        <i class="fas fa-tachometer-alt mr-2"></i>核心数据指标 (KPI)
+                    </h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-xs text-primary mt-1.5 mr-2"></i>
+                            <span><strong>账号层面：</strong>粉丝增长数、视频播放量、平均播放时长、点赞量、评论量、分享量、主页访问量</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-xs text-primary mt-1.5 mr-2"></i>
+                            <span><strong>POI/团购层面：</strong>POI页面访问量、团购链接点击量、团购券核销量、核销金额、核销率</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-xs text-primary mt-1.5 mr-2"></i>
+                            <span><strong>转化层面：</strong>通过抖音引导到店客流量（暗号/二维码统计）、销售/服务转化额、新增会员数</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-xs text-primary mt-1.5 mr-2"></i>
+                            <span><strong>直播层面：</strong>观看人数、平均观看时长、在线峰值、互动评论数、直播期间团购下单量</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 数据监测工具 -->
+                <div class="bg-white rounded-xl p-6 shadow-md card-hover">
+                    <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
+                        <i class="fas fa-tools mr-2"></i>数据监测工具
+                    </h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-primary mr-2 mt-1"></i>
+                            <span>抖音企业服务中心后台（核心数据）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-primary mr-2 mt-1"></i>
+                            <span>团购核销系统数据</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-primary mr-2 mt-1"></i>
+                            <span>线下门店登记/收银系统（用于追踪抖音来源客户）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-primary mr-2 mt-1"></i>
+                            <span>第三方数据分析工具（可选）</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 复盘机制 -->
+                <div class="bg-white rounded-xl p-6 shadow-md card-hover">
+                    <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
+                        <i class="fas fa-redo mr-2"></i>复盘机制
+                    </h3>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-calendar-week text-primary mr-2 mt-1"></i>
+                            <span><strong>周度/双周度：</strong>检查核心数据，分析内容/投放效果，快速调整下周计划</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-calendar-month text-primary mr-2 mt-1"></i>
+                            <span><strong>月度/项目阶段结束：</strong>全面复盘目标达成情况，分析成功与失败原因，总结经验教训，指导下阶段策略优化</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-file-report text-primary mr-2 mt-1"></i>
+                            <span><strong>关键报告：</strong>定期向相关方汇报项目进展和效果</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 活动时间与地点 -->
+        <section class="mb-16">
+            <h2 class="text-2xl font-bold text-secondary mb-6 border-b-2 border-primary pb-2">
+                <i class="fas fa-calendar-alt mr-2"></i>活动时间与地点
+            </h2>
+            <div class="bg-white rounded-xl p-6 shadow-md card-hover">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-semibold text-primary mb-3">活动时间</h3>
+                        <p class="text-gray-700">9月底 - 1月中旬的每个周末及节假日</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-primary mb-3">活动地点</h3>
+                        <p class="text-gray-700">按照项目需求提供666㎡专用场地（景区郊野区域，符合选址要求）</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-secondary text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-bold mb-2">秋冬季窑鸡推广方案</h3>
+                    <p class="opacity-80">© 2025 星联汇商务部 版权所有</p>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-white hover:text-primary transition-colors">
+                        <i class="fab fa-douyin text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-primary transition-colors">
+                        <i class="fab fa-weixin text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-primary transition-colors">
+                        <i class="fab fa-meituan text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // 移动端菜单切换
+        const menuBtn = document.getElementById('menuBtn');
+        const menu = document.getElementById('menu');
+        
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // 导航栏滚动效果
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-lg');
+                nav.classList.remove('shadow-md');
+            } else {
+                nav.classList.remove('shadow-lg');
+                nav.classList.add('shadow-md');
+            }
+        });
+
+        // 图片懒加载
+        document.addEventListener("DOMContentLoaded", function() {
+            const images = document.querySelectorAll('img');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.src;
+                        observer.unobserve(img);
+                    }
+                });
+            });
+            
+            images.forEach(img => {
+                observer.observe(img);
+            });
+        });
+    </script>
+</body>
+</html>
